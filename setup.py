@@ -262,9 +262,9 @@ DEFINES+= [ ( x.define, None ) for x in DEPS ]+ [ ( 'HAVE_AV_CONFIG_H', None ), 
 LIBS+= [ x.lib for x in DEPS ]
 
 #choice = raw_input('Continue building '+MODULE_NAME+' ? [Y,n]:')
-if choice== 'n':
-		print 'To start installation please run: \n\tsetup.py install and press Enter when prompted\n'
-		sys.exit()
+#if choice== 'n':
+#		print 'To start installation please run: \n\tsetup.py install and press Enter when prompted\n'
+#		sys.exit()
 
 METADATA = {
 		"name":             "pymedia",
