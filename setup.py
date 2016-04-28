@@ -1,5 +1,5 @@
 #!/bin/env python
-from setuptools import setup
+#from setuptools import setup
 import sys, config, os
 try:
   from distutils.core import setup, Extension
