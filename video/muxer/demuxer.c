@@ -24,7 +24,7 @@
  * Dmitry Borisov
 */
 
-/*#include <stdint.h>*/
+#include <stdint.h>
 #include <Python.h>
 
 #include "version.h"

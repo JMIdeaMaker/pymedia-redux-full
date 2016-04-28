@@ -1,4 +1,4 @@
-/*#include <stdint.h>*/
+#include <stdint.h>
 
 #if !defined( __INTTYPES_H__ )
 #define __INTTYPES_H__
